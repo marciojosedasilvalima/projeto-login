@@ -25,7 +25,7 @@ main {
     width: 100vw;
 }
 
-section#login {
+section#idlogin {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,9 +38,14 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.650); /* Sombra */
+
+    transition: width 1s, height 1s;
+    /* Animação, troca de uma tela pra outra mais lento */
+    transition-timing-function: ease;
+    /* e suave */
 }
 
-section#login > div#imagem {
+section#idlogin > div#idimagem {
     display: block;
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
     background-size: cover;
@@ -48,7 +53,7 @@ section#login > div#imagem {
     height: 200px;
 }
 
-section#login > div#formulario {
+section#idlogin > div#idformulario {
     display: block;
     padding: 10px;
 }
