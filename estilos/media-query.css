@@ -40,7 +40,7 @@ Lilás: #5f2c82
    body {
       background-image: linear-gradient(to top, #49a09d, #5f2c82);
    }
-   
+
    section#idlogin {
       width: 950px;
    }  
@@ -55,4 +55,12 @@ Lilás: #5f2c82
       float: right;
       width: 50%;
    }
+
+   div#idformulario > h1 {
+      font-size: 2em;
+   }
+
+   div#idformulario > p {
+      font-size: 1.2em;
+  }
 }
